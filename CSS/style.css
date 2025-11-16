@@ -374,6 +374,8 @@ body{
     
     
 }
+
+
 .card-header .left-tittle .special{
     color: #5cacee; 
     border-bottom: 3px solid #5cacee; 
@@ -440,7 +442,21 @@ body{
     opacity: 0;
     
 }
-.parent-card a{
+
+.parent-card .card1 a , .parent-card .card2 a , .parent-card .card3 a , .parent-card .card4 a{
+    padding: 0 15px;
+    font-size: 20px;
+    color: #5cacee;
+    display: inline-block;
+    padding-top: 20px;
+    text-decoration: none;
+    
+
+}
+
+
+
+.parent-card .icon a{
     padding: 0 15px;
     font-size: 20px;
     color: #16161a;
@@ -448,6 +464,7 @@ body{
     
 
 }
+
 .card1:hover   .icon , .card2:hover   .icon , .card3:hover   .icon , .card4:hover   .icon{
     opacity: 1;
       transform: translate(0, -10%);
@@ -457,6 +474,7 @@ body{
     color: #16161a;
     opacity: 0.8;
     font-size: 18px;
+    padding-top: 5px;
 }
 .card-img:hover{
     transform: rotatey(180deg);
